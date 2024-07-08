@@ -24,4 +24,7 @@
   <ItemGroup>
     <Text Include="CMakeLists.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="setup.py" />
+  </ItemGroup>
 </Project>

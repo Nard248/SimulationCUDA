@@ -1,28 +1,8 @@
-﻿  Compiling CUDA source file parameters.cu...
+﻿  Compiling CUDA source file main.cu...
   
-  C:\Users\meloy\source\repos\CudaProject\CudaProject>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Python312\Lib\site-packages\pybind11\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o C:\Users\meloy\source\repos\CudaProject\CudaProject\x64\Debug\parameters.cu.obj "C:\Users\meloy\source\repos\CudaProject\CudaProject\parameters.cu" 
-C:\Users\meloy\source\repos\CudaProject\CudaProject\parameters.cu(34): warning #177-D: variable "i" was declared but never referenced
-            int i = idx / params.Ny;
-                ^
-  
-  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
-  
-C:\Users\meloy\source\repos\CudaProject\CudaProject\parameters.cu(35): warning #177-D: variable "j" was declared but never referenced
-            int j = idx % params.Ny;
-                ^
-  
-C:\Users\meloy\source\repos\CudaProject\CudaProject\parameters.cu(50): warning #177-D: variable "i" was declared but never referenced
-            int i = idx / Ny;
-                ^
-  
-C:\Users\meloy\source\repos\CudaProject\CudaProject\parameters.cu(51): warning #177-D: variable "j" was declared but never referenced
-            int j = idx % Ny;
-                ^
-  
-C:\Users\meloy\source\repos\CudaProject\CudaProject\parameters.cu(212): warning #177-D: variable "numBlocksY" was declared but never referenced
-        int numBlocksY = (params.Ny + blockSize - 1) / blockSize;
-            ^
-  
-  parameters.cu
-  tmpxft_00000830_00000000-7_parameters.cudafe1.cpp
+  C:\Users\meloy\source\repos\CudaProject\CudaProject>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Python312\Lib\site-packages\pybind11\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o C:\Users\meloy\source\repos\CudaProject\CudaProject\x64\Debug\main.cu.obj "C:\Users\meloy\source\repos\CudaProject\CudaProject\main.cu" 
+  main.cu
+  tmpxft_000047f8_00000000-7_main.cudafe1.cpp
+     Creating library C:\Users\meloy\source\repos\CudaProject\x64\Debug\CudaProject.lib and object C:\Users\meloy\source\repos\CudaProject\x64\Debug\CudaProject.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
   CudaProject.vcxproj -> C:\Users\meloy\source\repos\CudaProject\x64\Debug\CudaProject.exe

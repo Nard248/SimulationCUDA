@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.10.4+10fbfbf2e for .NET Framework
-      Build started 7/2/2024 2:12:16 PM.
+      Build started 7/2/2024 2:44:41 PM.
       
       Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\3.27.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.40
+      Time Elapsed 00:00:00.39
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       MSBuild version 17.10.4+10fbfbf2e for .NET Framework
-      Build started 7/2/2024 2:12:16 PM.
+      Build started 7/2/2024 2:44:42 PM.
       
       Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -95,7 +95,7 @@ events:
       CudaBuildCore:
         Compiling CUDA source file CMakeCUDACompilerId.cu...
         Creating directory "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug".
-        cmd.exe /C "C:\\Users\\meloy\\AppData\\Local\\Temp\\tmp0050c1614333425687433c36c0bc47d9.cmd"
+        cmd.exe /C "C:\\Users\\meloy\\AppData\\Local\\Temp\\tmp579f0912803d4e7784e70fad636625a2.cmd"
         "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\include"  -G   --keep-dir CompilerIdCUDA\\x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdDebug\\vc143.pdb" -o C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu"
         
         C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\include"  -G   --keep-dir CompilerIdCUDA\\x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdDebug\\vc143.pdb" -o C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" 
@@ -118,23 +118,23 @@ events:
         #$ CUDAFE_FLAGS=--sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"
         #$ PTXAS_FLAGS=
         CMakeCUDACompilerId.cu
-        #$ resource file C:\\Users\\meloy\\AppData\\Local\\Temp/tmpxft_00001d6c_00000000-8.res: [-D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -E -TP -EHsc -D__CUDACC__ -D__NVCC__ -D__CUDACC_DEBUG__  /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc143.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.5/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.5/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin/../include"    -D "_MBCS" -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=5 -D__CUDACC_VER_BUILD__=40 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=5 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" -Zi "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]
-        #$ cl.exe @"C:\\Users\\meloy\\AppData\\Local\\Temp/tmpxft_00001d6c_00000000-8.res" > "C:/Users/meloy/AppData/Local/Temp/tmpxft_00001d6c_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        #$ resource file C:\\Users\\meloy\\AppData\\Local\\Temp/tmpxft_000053dc_00000000-8.res: [-D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -E -TP -EHsc -D__CUDACC__ -D__NVCC__ -D__CUDACC_DEBUG__  /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc143.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.5/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.5/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin/../include"    -D "_MBCS" -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=5 -D__CUDACC_VER_BUILD__=40 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=5 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" -Zi "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]
+        #$ cl.exe @"C:\\Users\\meloy\\AppData\\Local\\Temp/tmpxft_000053dc_00000000-8.res" > "C:/Users/meloy/AppData/Local/Temp/tmpxft_000053dc_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
         CMakeCUDACompilerId.cu
-        #$ erase C:\\Users\\meloy\\AppData\\Local\\Temp/tmpxft_00001d6c_00000000-8.res
-        #$ cudafe++ --ms_c++14 --microsoft_version=1940 --msvc_target_version=1940 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/3.27.5/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10" --m64 --parse_templates --gen_c_file_name "C:/Users/meloy/AppData/Local/Temp/tmpxft_00001d6c_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_00001d6c_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_module_id_file --module_id_file_name "C:/Users/meloy/AppData/Local/Temp/tmpxft_00001d6c_00000000-5_CMakeCUDACompilerId.module_id" "C:/Users/meloy/AppData/Local/Temp/tmpxft_00001d6c_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
-        #$ resource file C:\\Users\\meloy\\AppData\\Local\\Temp/tmpxft_00001d6c_00000000-10.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -E -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc -D__CUDACC__ -D__NVCC__ -D__CUDACC_DEBUG__  /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc143.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.5/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.5/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin/../include"    -D "_MBCS" -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=5 -D__CUDACC_VER_BUILD__=40 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=5 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" -Zi "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]
-        #$ cl.exe @"C:\\Users\\meloy\\AppData\\Local\\Temp/tmpxft_00001d6c_00000000-10.res" > "C:/Users/meloy/AppData/Local/Temp/tmpxft_00001d6c_00000000-9_CMakeCUDACompilerId.cpp1.ii" 
+        #$ erase C:\\Users\\meloy\\AppData\\Local\\Temp/tmpxft_000053dc_00000000-8.res
+        #$ cudafe++ --ms_c++14 --microsoft_version=1940 --msvc_target_version=1940 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/3.27.5/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10" --m64 --parse_templates --gen_c_file_name "C:/Users/meloy/AppData/Local/Temp/tmpxft_000053dc_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_000053dc_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_module_id_file --module_id_file_name "C:/Users/meloy/AppData/Local/Temp/tmpxft_000053dc_00000000-5_CMakeCUDACompilerId.module_id" "C:/Users/meloy/AppData/Local/Temp/tmpxft_000053dc_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        #$ resource file C:\\Users\\meloy\\AppData\\Local\\Temp/tmpxft_000053dc_00000000-10.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -E -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc -D__CUDACC__ -D__NVCC__ -D__CUDACC_DEBUG__  /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc143.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.5/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.5/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin/../include"    -D "_MBCS" -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=5 -D__CUDACC_VER_BUILD__=40 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=5 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" -Zi "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]
+        #$ cl.exe @"C:\\Users\\meloy\\AppData\\Local\\Temp/tmpxft_000053dc_00000000-10.res" > "C:/Users/meloy/AppData/Local/Temp/tmpxft_000053dc_00000000-9_CMakeCUDACompilerId.cpp1.ii" 
         CMakeCUDACompilerId.cu
-        #$ erase C:\\Users\\meloy\\AppData\\Local\\Temp/tmpxft_00001d6c_00000000-10.res
-        #$ cicc --ms_c++14 --microsoft_version=1940 --msvc_target_version=1940 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/3.27.5/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_00001d6c_00000000-4_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused --module_id_file_name "C:/Users/meloy/AppData/Local/Temp/tmpxft_00001d6c_00000000-5_CMakeCUDACompilerId.module_id" --gen_c_file_name "C:/Users/meloy/AppData/Local/Temp/tmpxft_00001d6c_00000000-7_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/meloy/AppData/Local/Temp/tmpxft_00001d6c_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/meloy/AppData/Local/Temp/tmpxft_00001d6c_00000000-7_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/meloy/AppData/Local/Temp/tmpxft_00001d6c_00000000-9_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/meloy/AppData/Local/Temp/tmpxft_00001d6c_00000000-7_CMakeCUDACompilerId.ptx"
-        #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/meloy/AppData/Local/Temp/tmpxft_00001d6c_00000000-7_CMakeCUDACompilerId.ptx"  -o "C:/Users/meloy/AppData/Local/Temp/tmpxft_00001d6c_00000000-11_CMakeCUDACompilerId.sm_52.cubin" 
-        #$ fatbinary -64 --ident="C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/3.27.5/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/meloy/AppData/Local/Temp/tmpxft_00001d6c_00000000-11_CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/meloy/AppData/Local/Temp/tmpxft_00001d6c_00000000-7_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/meloy/AppData/Local/Temp/tmpxft_00001d6c_00000000-4_CMakeCUDACompilerId.fatbin.c" 
-        #$ erase C:/Users/meloy/AppData/Local/Temp/tmpxft_00001d6c_00000000-4_CMakeCUDACompilerId.fatbin
-        #$ resource file C:\\Users\\meloy\\AppData\\Local\\Temp/tmpxft_00001d6c_00000000-12.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -c -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc143.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.5/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.5/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin/../include"   -Zi "C:\\Users\\meloy\\AppData\\Local\\Temp\\tmpxft_00001d6c_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" ]
-        #$ cl.exe @"C:\\Users\\meloy\\AppData\\Local\\Temp/tmpxft_00001d6c_00000000-12.res" -Fo"C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/3.27.5/CompilerIdCUDA/CompilerIdCUDA/x64/Debug/CMakeCUDACompilerId.cu.obj" 
-        tmpxft_00001d6c_00000000-7_CMakeCUDACompilerId.cudafe1.cpp
-        #$ erase C:\\Users\\meloy\\AppData\\Local\\Temp/tmpxft_00001d6c_00000000-12.res
+        #$ erase C:\\Users\\meloy\\AppData\\Local\\Temp/tmpxft_000053dc_00000000-10.res
+        #$ cicc --ms_c++14 --microsoft_version=1940 --msvc_target_version=1940 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/3.27.5/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_000053dc_00000000-4_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused --module_id_file_name "C:/Users/meloy/AppData/Local/Temp/tmpxft_000053dc_00000000-5_CMakeCUDACompilerId.module_id" --gen_c_file_name "C:/Users/meloy/AppData/Local/Temp/tmpxft_000053dc_00000000-7_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/meloy/AppData/Local/Temp/tmpxft_000053dc_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/meloy/AppData/Local/Temp/tmpxft_000053dc_00000000-7_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/meloy/AppData/Local/Temp/tmpxft_000053dc_00000000-9_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/meloy/AppData/Local/Temp/tmpxft_000053dc_00000000-7_CMakeCUDACompilerId.ptx"
+        #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/meloy/AppData/Local/Temp/tmpxft_000053dc_00000000-7_CMakeCUDACompilerId.ptx"  -o "C:/Users/meloy/AppData/Local/Temp/tmpxft_000053dc_00000000-11_CMakeCUDACompilerId.sm_52.cubin" 
+        #$ fatbinary -64 --ident="C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/3.27.5/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/meloy/AppData/Local/Temp/tmpxft_000053dc_00000000-11_CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/meloy/AppData/Local/Temp/tmpxft_000053dc_00000000-7_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/meloy/AppData/Local/Temp/tmpxft_000053dc_00000000-4_CMakeCUDACompilerId.fatbin.c" 
+        #$ erase C:/Users/meloy/AppData/Local/Temp/tmpxft_000053dc_00000000-4_CMakeCUDACompilerId.fatbin
+        #$ resource file C:\\Users\\meloy\\AppData\\Local\\Temp/tmpxft_000053dc_00000000-12.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -c -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc143.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.5/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.5/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin/../include"   -Zi "C:\\Users\\meloy\\AppData\\Local\\Temp\\tmpxft_000053dc_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" ]
+        #$ cl.exe @"C:\\Users\\meloy\\AppData\\Local\\Temp/tmpxft_000053dc_00000000-12.res" -Fo"C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/3.27.5/CompilerIdCUDA/CompilerIdCUDA/x64/Debug/CMakeCUDACompilerId.cu.obj" 
+        tmpxft_000053dc_00000000-7_CMakeCUDACompilerId.cudafe1.cpp
+        #$ erase C:\\Users\\meloy\\AppData\\Local\\Temp/tmpxft_000053dc_00000000-12.res
       Done Building Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (CudaBuildCore target(s)).
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj
@@ -159,7 +159,7 @@ events:
           1 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.53
+      Time Elapsed 00:00:01.82
       
       
       Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exe"
@@ -193,8 +193,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-pied1h"
-      binary: "C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-pied1h"
+      source: "C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-7gxonp"
+      binary: "C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-7gxonp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -203,40 +203,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-pied1h'
+        Change Dir: 'C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-7gxonp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dfffd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_159c5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.10.4+10fbfbf2e for .NET Framework
-        Build started 7/2/2024 2:12:18 PM.
+        Build started 7/2/2024 2:44:44 PM.
         
-        Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pied1h\\cmTC_dfffd.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gxonp\\cmTC_159c5.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_dfffd.dir\\Debug\\".
+          Creating directory "cmTC_159c5.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pied1h\\Debug\\".
-          Creating directory "cmTC_dfffd.dir\\Debug\\cmTC_dfffd.tlog\\".
+          Creating directory "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gxonp\\Debug\\".
+          Creating directory "cmTC_159c5.dir\\Debug\\cmTC_159c5.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_dfffd.dir\\Debug\\cmTC_dfffd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_dfffd.dir\\Debug\\cmTC_dfffd.tlog\\unsuccessfulbuild".
+          Creating "cmTC_159c5.dir\\Debug\\cmTC_159c5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_159c5.dir\\Debug\\cmTC_159c5.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dfffd.dir\\Debug\\\\" /Fd"cmTC_dfffd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_159c5.dir\\Debug\\\\" /Fd"cmTC_159c5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dfffd.dir\\Debug\\\\" /Fd"cmTC_dfffd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_159c5.dir\\Debug\\\\" /Fd"cmTC_159c5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pied1h\\Debug\\cmTC_dfffd.exe" /INCREMENTAL /ILK:"cmTC_dfffd.dir\\Debug\\cmTC_dfffd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-pied1h/Debug/cmTC_dfffd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-pied1h/Debug/cmTC_dfffd.lib" /MACHINE:X64  /machine:x64 cmTC_dfffd.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_dfffd.vcxproj -> C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pied1h\\Debug\\cmTC_dfffd.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gxonp\\Debug\\cmTC_159c5.exe" /INCREMENTAL /ILK:"cmTC_159c5.dir\\Debug\\cmTC_159c5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-7gxonp/Debug/cmTC_159c5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-7gxonp/Debug/cmTC_159c5.lib" /MACHINE:X64  /machine:x64 cmTC_159c5.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_159c5.vcxproj -> C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gxonp\\Debug\\cmTC_159c5.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_dfffd.dir\\Debug\\cmTC_dfffd.tlog\\unsuccessfulbuild".
-          Touching "cmTC_dfffd.dir\\Debug\\cmTC_dfffd.tlog\\cmTC_dfffd.lastbuildstate".
-        Done Building Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pied1h\\cmTC_dfffd.vcxproj" (default targets).
+          Deleting file "cmTC_159c5.dir\\Debug\\cmTC_159c5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_159c5.dir\\Debug\\cmTC_159c5.tlog\\cmTC_159c5.lastbuildstate".
+        Done Building Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gxonp\\cmTC_159c5.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.39
+        Time Elapsed 00:00:00.38
         
       exitCode: 0
   -
@@ -248,8 +248,8 @@ events:
     checks:
       - "Detecting CUDA compiler ABI info"
     directories:
-      source: "C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-e94yr6"
-      binary: "C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-e94yr6"
+      source: "C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-h3lxzs"
+      binary: "C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-h3lxzs"
     cmakeVariables:
       CMAKE_CUDA_FLAGS: "-D_WINDOWS -Xcompiler=\"/W3 /GR /EHsc\""
       CMAKE_CUDA_FLAGS_DEBUG: "-Xcompiler=\"-MDd  -Zi -Ob0 -Od /RTC1\""
@@ -259,68 +259,68 @@ events:
       variable: "CMAKE_CUDA_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-e94yr6'
+        Change Dir: 'C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-h3lxzs'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9af93.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7f3dc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.10.4+10fbfbf2e for .NET Framework
-        Build started 7/2/2024 2:12:19 PM.
+        Build started 7/2/2024 2:44:44 PM.
         
-        Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_9af93.dir\\Debug\\".
+          Creating directory "cmTC_7f3dc.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\Debug\\".
-          Creating directory "cmTC_9af93.dir\\Debug\\cmTC_9af93.tlog\\".
+          Creating directory "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\Debug\\".
+          Creating directory "cmTC_7f3dc.dir\\Debug\\cmTC_7f3dc.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_9af93.dir\\Debug\\cmTC_9af93.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_9af93.dir\\Debug\\cmTC_9af93.tlog\\unsuccessfulbuild".
+          Creating "cmTC_7f3dc.dir\\Debug\\cmTC_7f3dc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7f3dc.dir\\Debug\\cmTC_7f3dc.tlog\\unsuccessfulbuild".
         AddCudaCompileDeps:
           C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=5 /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\include" /I. /FIcuda_runtime.h /c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" 
-        Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj" (1) is building "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj" (1:2) on node 1 (CudaBuildCore target(s)).
+        Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj" (1) is building "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj" (1:2) on node 1 (CudaBuildCore target(s)).
         CudaBuildCore:
           Compiling CUDA source file ..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu...
-          cmd.exe /C "C:\\Users\\meloy\\AppData\\Local\\Temp\\tmp6d5656b81e2241d7a86d2e4773802f31.cmd"
-          "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\include"     --keep-dir cmTC_9af93\\x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/FdcmTC_9af93.dir\\Debug\\vc143.pdb" -o cmTC_9af93.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu"
+          cmd.exe /C "C:\\Users\\meloy\\AppData\\Local\\Temp\\tmpe3ab006dad744767a5834b2de84413c1.cmd"
+          "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\include"     --keep-dir cmTC_7f3dc\\x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/FdcmTC_7f3dc.dir\\Debug\\vc143.pdb" -o cmTC_7f3dc.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu"
           
-          C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\include"     --keep-dir cmTC_9af93\\x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/FdcmTC_9af93.dir\\Debug\\vc143.pdb" -o cmTC_9af93.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" 
-        cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj]
+          C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\include"     --keep-dir cmTC_7f3dc\\x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/FdcmTC_7f3dc.dir\\Debug\\vc143.pdb" -o cmTC_7f3dc.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" 
+        cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj]
           CMakeCUDACompilerABI.cu
-        cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj]
+        cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj]
           CMakeCUDACompilerABI.cu
           CMakeCUDACompilerABI.cu
-        cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj]
-          tmpxft_00003cb4_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp
-        Done Building Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj" (CudaBuildCore target(s)).
+        cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj]
+          tmpxft_00004074_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp
+        Done Building Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj" (CudaBuildCore target(s)).
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\Debug\\cmTC_9af93.exe" /INCREMENTAL /ILK:"cmTC_9af93.dir\\Debug\\cmTC_9af93.ilk" /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-e94yr6/Debug/cmTC_9af93.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-e94yr6/Debug/cmTC_9af93.lib" /MACHINE:X64  /machine:x64 -v cmTC_9af93.dir\\Debug\\CMakeCUDACompilerABI.obj
-        LINK : warning LNK4044: unrecognized option '/v'; ignored [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj]
-             Creating library C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-e94yr6/Debug/cmTC_9af93.lib and object C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-e94yr6/Debug/cmTC_9af93.exp
-        LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj]
-          cmTC_9af93.vcxproj -> C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\Debug\\cmTC_9af93.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\Debug\\cmTC_7f3dc.exe" /INCREMENTAL /ILK:"cmTC_7f3dc.dir\\Debug\\cmTC_7f3dc.ilk" /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-h3lxzs/Debug/cmTC_7f3dc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-h3lxzs/Debug/cmTC_7f3dc.lib" /MACHINE:X64  /machine:x64 -v cmTC_7f3dc.dir\\Debug\\CMakeCUDACompilerABI.obj
+        LINK : warning LNK4044: unrecognized option '/v'; ignored [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj]
+             Creating library C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-h3lxzs/Debug/cmTC_7f3dc.lib and object C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-h3lxzs/Debug/cmTC_7f3dc.exp
+        LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj]
+          cmTC_7f3dc.vcxproj -> C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\Debug\\cmTC_7f3dc.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_9af93.dir\\Debug\\cmTC_9af93.tlog\\unsuccessfulbuild".
-          Touching "cmTC_9af93.dir\\Debug\\cmTC_9af93.tlog\\cmTC_9af93.lastbuildstate".
-        Done Building Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj" (default targets).
+          Deleting file "cmTC_7f3dc.dir\\Debug\\cmTC_7f3dc.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7f3dc.dir\\Debug\\cmTC_7f3dc.tlog\\cmTC_7f3dc.lastbuildstate".
+        Done Building Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj" (default targets).
         
         Build succeeded.
         
-        "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj" (default target) (1) ->
-        "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj" (CudaBuildCore target) (1:2) ->
+        "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj" (default target) (1) ->
+        "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj" (CudaBuildCore target) (1:2) ->
         (CudaBuildCore target) -> 
-          cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj]
-          cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj]
-          cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj]
+          cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj]
+          cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj]
+          cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj]
         
         
-        "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj" (default target) (1) ->
+        "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : warning LNK4044: unrecognized option '/v'; ignored [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj]
-          LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj]
+          LINK : warning LNK4044: unrecognized option '/v'; ignored [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj]
+          LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj]
         
             5 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.84
+        Time Elapsed 00:00:01.78
         
       exitCode: 0
   -
@@ -343,72 +343,72 @@ events:
     message: |
       Parsed CUDA implicit link information:
         link line regex: [^( *|.*[/\\])(link\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-e94yr6']
+        ignore line: [Change Dir: 'C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-h3lxzs']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9af93.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n]
+        ignore line: [Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7f3dc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n]
         ignore line: [MSBuild version 17.10.4+10fbfbf2e for .NET Framework]
-        ignore line: [Build started 7/2/2024 2:12:19 PM.]
+        ignore line: [Build started 7/2/2024 2:44:44 PM.]
         ignore line: []
-        ignore line: [Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj" on node 1 (default targets).]
+        ignore line: [Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj" on node 1 (default targets).]
         ignore line: [PrepareForBuild:]
-        ignore line: [  Creating directory "cmTC_9af93.dir\\Debug\\".]
+        ignore line: [  Creating directory "cmTC_7f3dc.dir\\Debug\\".]
         ignore line: [  Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.]
-        ignore line: [  Creating directory "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\Debug\\".]
-        ignore line: [  Creating directory "cmTC_9af93.dir\\Debug\\cmTC_9af93.tlog\\".]
+        ignore line: [  Creating directory "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\Debug\\".]
+        ignore line: [  Creating directory "cmTC_7f3dc.dir\\Debug\\cmTC_7f3dc.tlog\\".]
         ignore line: [InitializeBuildStatus:]
-        ignore line: [  Creating "cmTC_9af93.dir\\Debug\\cmTC_9af93.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.]
-        ignore line: [  Touching "cmTC_9af93.dir\\Debug\\cmTC_9af93.tlog\\unsuccessfulbuild".]
+        ignore line: [  Creating "cmTC_7f3dc.dir\\Debug\\cmTC_7f3dc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.]
+        ignore line: [  Touching "cmTC_7f3dc.dir\\Debug\\cmTC_7f3dc.tlog\\unsuccessfulbuild".]
         ignore line: [AddCudaCompileDeps:]
         ignore line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=5 /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\include" /I. /FIcuda_runtime.h /c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" ]
-        ignore line: [Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj" (1) is building "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj" (1:2) on node 1 (CudaBuildCore target(s)).]
+        ignore line: [Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj" (1) is building "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj" (1:2) on node 1 (CudaBuildCore target(s)).]
         ignore line: [CudaBuildCore:]
         ignore line: [  Compiling CUDA source file ..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu...]
-        ignore line: [  cmd.exe /C "C:\\Users\\meloy\\AppData\\Local\\Temp\\tmp6d5656b81e2241d7a86d2e4773802f31.cmd"]
-        ignore line: [  "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\include"     --keep-dir cmTC_9af93\\x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/FdcmTC_9af93.dir\\Debug\\vc143.pdb" -o cmTC_9af93.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu"]
+        ignore line: [  cmd.exe /C "C:\\Users\\meloy\\AppData\\Local\\Temp\\tmpe3ab006dad744767a5834b2de84413c1.cmd"]
+        ignore line: [  "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\include"     --keep-dir cmTC_7f3dc\\x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/FdcmTC_7f3dc.dir\\Debug\\vc143.pdb" -o cmTC_7f3dc.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu"]
         ignore line: [  ]
-        ignore line: [  C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\include"     --keep-dir cmTC_9af93\\x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/FdcmTC_9af93.dir\\Debug\\vc143.pdb" -o cmTC_9af93.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" ]
-        ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj]]
+        ignore line: [  C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\include"     --keep-dir cmTC_7f3dc\\x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -Xcompiler "/FdcmTC_7f3dc.dir\\Debug\\vc143.pdb" -o cmTC_7f3dc.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj]]
         ignore line: [  CMakeCUDACompilerABI.cu]
-        ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj]]
+        ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj]]
         ignore line: [  CMakeCUDACompilerABI.cu]
         ignore line: [  CMakeCUDACompilerABI.cu]
-        ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj]]
-        ignore line: [  tmpxft_00003cb4_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp]
-        ignore line: [Done Building Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj" (CudaBuildCore target(s)).]
+        ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj]]
+        ignore line: [  tmpxft_00004074_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp]
+        ignore line: [Done Building Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj" (CudaBuildCore target(s)).]
         ignore line: [Link:]
-        ignore line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\Debug\\cmTC_9af93.exe" /INCREMENTAL /ILK:"cmTC_9af93.dir\\Debug\\cmTC_9af93.ilk" /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-e94yr6/Debug/cmTC_9af93.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-e94yr6/Debug/cmTC_9af93.lib" /MACHINE:X64  /machine:x64 -v cmTC_9af93.dir\\Debug\\CMakeCUDACompilerABI.obj]
+        ignore line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\Debug\\cmTC_7f3dc.exe" /INCREMENTAL /ILK:"cmTC_7f3dc.dir\\Debug\\cmTC_7f3dc.ilk" /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-h3lxzs/Debug/cmTC_7f3dc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-h3lxzs/Debug/cmTC_7f3dc.lib" /MACHINE:X64  /machine:x64 -v cmTC_7f3dc.dir\\Debug\\CMakeCUDACompilerABI.obj]
         ignore line: [LINK : warning LNK4044: unrecognized option '/v']
-        ignore line: [ ignored [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj]]
-        ignore line: [     Creating library C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-e94yr6/Debug/cmTC_9af93.lib and object C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-e94yr6/Debug/cmTC_9af93.exp]
+        ignore line: [ ignored [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj]]
+        ignore line: [     Creating library C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-h3lxzs/Debug/cmTC_7f3dc.lib and object C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-h3lxzs/Debug/cmTC_7f3dc.exp]
         ignore line: [LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs]
-        ignore line: [ use /NODEFAULTLIB:library [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj]]
-        ignore line: [  cmTC_9af93.vcxproj -> C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\Debug\\cmTC_9af93.exe]
+        ignore line: [ use /NODEFAULTLIB:library [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj]]
+        ignore line: [  cmTC_7f3dc.vcxproj -> C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\Debug\\cmTC_7f3dc.exe]
         ignore line: [FinalizeBuildStatus:]
-        ignore line: [  Deleting file "cmTC_9af93.dir\\Debug\\cmTC_9af93.tlog\\unsuccessfulbuild".]
-        ignore line: [  Touching "cmTC_9af93.dir\\Debug\\cmTC_9af93.tlog\\cmTC_9af93.lastbuildstate".]
-        ignore line: [Done Building Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj" (default targets).]
+        ignore line: [  Deleting file "cmTC_7f3dc.dir\\Debug\\cmTC_7f3dc.tlog\\unsuccessfulbuild".]
+        ignore line: [  Touching "cmTC_7f3dc.dir\\Debug\\cmTC_7f3dc.tlog\\cmTC_7f3dc.lastbuildstate".]
+        ignore line: [Done Building Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj" (default targets).]
         ignore line: []
         ignore line: [Build succeeded.]
         ignore line: []
-        ignore line: ["C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj" (default target) (1) ->]
-        ignore line: ["C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj" (CudaBuildCore target) (1:2) ->]
+        ignore line: ["C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj" (default target) (1) ->]
+        ignore line: ["C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj" (CudaBuildCore target) (1:2) ->]
         ignore line: [(CudaBuildCore target) -> ]
-        ignore line: [  cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj]]
-        ignore line: [  cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj]]
-        ignore line: [  cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj]]
+        ignore line: [  cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj]]
+        ignore line: [  cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj]]
+        ignore line: [  cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj]]
         ignore line: []
         ignore line: []
-        ignore line: ["C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj" (default target) (1) ->]
+        ignore line: ["C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj" (default target) (1) ->]
         ignore line: [(Link target) -> ]
         ignore line: [  LINK : warning LNK4044: unrecognized option '/v']
-        ignore line: [ ignored [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj]]
+        ignore line: [ ignored [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj]]
         ignore line: [  LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs]
-        ignore line: [ use /NODEFAULTLIB:library [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e94yr6\\cmTC_9af93.vcxproj]]
+        ignore line: [ use /NODEFAULTLIB:library [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3lxzs\\cmTC_7f3dc.vcxproj]]
         ignore line: []
         ignore line: [    5 Warning(s)]
         ignore line: [    0 Error(s)]
         ignore line: []
-        ignore line: [Time Elapsed 00:00:01.84]
+        ignore line: [Time Elapsed 00:00:01.78]
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -431,59 +431,58 @@ events:
     checks:
       - "Performing Test HAS_MSVC_GL_LTCG"
     directories:
-      source: "C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-kdd3ox"
-      binary: "C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-kdd3ox"
+      source: "C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-7thia7"
+      binary: "C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-7thia7"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: ""
     buildResult:
       variable: "HAS_MSVC_GL_LTCG"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-kdd3ox'
+        Change Dir: 'C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-7thia7'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8baca.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_31ae1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.10.4+10fbfbf2e for .NET Framework
-        Build started 7/2/2024 2:12:24 PM.
+        Build started 7/2/2024 2:44:50 PM.
         
-        Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kdd3ox\\cmTC_8baca.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7thia7\\cmTC_31ae1.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_8baca.dir\\Debug\\".
+          Creating directory "cmTC_31ae1.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kdd3ox\\Debug\\".
-          Creating directory "cmTC_8baca.dir\\Debug\\cmTC_8baca.tlog\\".
+          Creating directory "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7thia7\\Debug\\".
+          Creating directory "cmTC_31ae1.dir\\Debug\\cmTC_31ae1.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_8baca.dir\\Debug\\cmTC_8baca.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_8baca.dir\\Debug\\cmTC_8baca.tlog\\unsuccessfulbuild".
+          Creating "cmTC_31ae1.dir\\Debug\\cmTC_31ae1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_31ae1.dir\\Debug\\cmTC_31ae1.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8baca.dir\\Debug\\\\" /Fd"cmTC_8baca.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kdd3ox\\src.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_31ae1.dir\\Debug\\\\" /Fd"cmTC_31ae1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7thia7\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8baca.dir\\Debug\\\\" /Fd"cmTC_8baca.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kdd3ox\\src.cxx"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_31ae1.dir\\Debug\\\\" /Fd"cmTC_31ae1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7thia7\\src.cxx"
           src.cxx
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kdd3ox\\Debug\\cmTC_8baca.exe" /INCREMENTAL /ILK:"cmTC_8baca.dir\\Debug\\cmTC_8baca.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-kdd3ox/Debug/cmTC_8baca.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-kdd3ox/Debug/cmTC_8baca.lib" /MACHINE:X64  /machine:x64 cmTC_8baca.dir\\Debug\\src.obj
-        LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kdd3ox\\cmTC_8baca.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7thia7\\Debug\\cmTC_31ae1.exe" /INCREMENTAL /ILK:"cmTC_31ae1.dir\\Debug\\cmTC_31ae1.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-7thia7/Debug/cmTC_31ae1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/CMakeScratch/TryCompile-7thia7/Debug/cmTC_31ae1.lib" /MACHINE:X64  /machine:x64 cmTC_31ae1.dir\\Debug\\src.obj
+        LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7thia7\\cmTC_31ae1.vcxproj]
           Generating code
           Finished generating code
-          cmTC_8baca.vcxproj -> C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kdd3ox\\Debug\\cmTC_8baca.exe
+          cmTC_31ae1.vcxproj -> C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7thia7\\Debug\\cmTC_31ae1.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_8baca.dir\\Debug\\cmTC_8baca.tlog\\unsuccessfulbuild".
-          Touching "cmTC_8baca.dir\\Debug\\cmTC_8baca.tlog\\cmTC_8baca.lastbuildstate".
-        Done Building Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kdd3ox\\cmTC_8baca.vcxproj" (default targets).
+          Deleting file "cmTC_31ae1.dir\\Debug\\cmTC_31ae1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_31ae1.dir\\Debug\\cmTC_31ae1.tlog\\cmTC_31ae1.lastbuildstate".
+        Done Building Project "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7thia7\\cmTC_31ae1.vcxproj" (default targets).
         
         Build succeeded.
         
-        "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kdd3ox\\cmTC_8baca.vcxproj" (default target) (1) ->
+        "C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7thia7\\cmTC_31ae1.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kdd3ox\\cmTC_8baca.vcxproj]
+          LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\meloy\\source\\repos\\CudaProject\\CudaProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7thia7\\cmTC_31ae1.vcxproj]
         
             1 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.42
+        Time Elapsed 00:00:00.40
         
       exitCode: 0
 ...

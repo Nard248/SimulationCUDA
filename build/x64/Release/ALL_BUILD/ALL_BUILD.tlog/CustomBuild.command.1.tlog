@@ -1,0 +1,10 @@
+^C:\USERS\MELOY\SOURCE\REPOS\CUDAPROJECT\CUDAPROJECT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/meloy/source/repos/CudaProject/CudaProject -BC:/Users/meloy/source/repos/CudaProject/CudaProject/build --check-stamp-file C:/Users/meloy/source/repos/CudaProject/CudaProject/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

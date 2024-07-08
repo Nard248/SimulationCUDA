@@ -1,0 +1,10 @@
+^C:\USERS\MELOY\SOURCE\REPOS\CUDAPROJECT\CUDAPROJECT\BUILD\CMAKEFILES\D7715E6A092CAFC902593E28C7028937\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/meloy/source/repos/CudaProject/CudaProject -BC:/Users/meloy/source/repos/CudaProject/CudaProject/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/meloy/source/repos/CudaProject/CudaProject/build/simulation.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
